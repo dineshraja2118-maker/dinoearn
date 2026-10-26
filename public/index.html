@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DinoEarn - Online Work</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f1f5f9;
+      color: #172033;
+    }
+    header {
+      background: #087f5b;
+      color: white;
+      padding: 22px;
+      text-align: center;
+    }
+    main {
+      max-width: 600px;
+      margin: 25px auto;
+      padding: 16px;
+    }
+    .card {
+      background: white;
+      padding: 22px;
+      margin-bottom: 16px;
+      border-radius: 14px;
+      box-shadow: 0 3px 12px #00000010;
+    }
+    h2 { margin-top: 0; }
+    button {
+      background: #087f5b;
+      color: white;
+      border: 0;
+      border-radius: 8px;
+      padding: 12px 18px;
+      font-size: 16px;
+    }
+    .tag {
+      color: #087f5b;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🦖 DinoEarn</h1>
+    <p>Typing & Data Entry Work</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Welcome to DinoEarn!</h2>
+      <p>Find typing and data entry work opportunities.</p>
+      <p class="tag">Start with ₹0 investment</p>
+      <button onclick="showMessage()">Explore Work</button>
+      <p id="message"></p>
+    </section>
+
+    <section class="card">
+      <h2>⌨️ Typing Work</h2>
+      <p>Practice typing and look for genuine typing assignments.</p>
+    </section>
+
+    <section class="card">
+      <h2>📊 Data Entry</h2>
+      <p>Explore data entry opportunities from verified clients.</p>
+    </section>
+  </main>
+
+  <script>
+    function showMessage() {
+      document.getElementById("message").textContent =
+        "Work opportunities section is coming soon!";
+    }
+  </script>
+</body>
+</html>
