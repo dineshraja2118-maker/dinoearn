@@ -1,0 +1,17 @@
+
+{
+  "name": "dinoearn",
+  "version": "1.0.0",
+  "private": true,
+  "description": "DinoEarn typing and data entry work app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "22.x"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
